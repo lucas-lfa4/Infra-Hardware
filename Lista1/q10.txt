@@ -1,0 +1,12 @@
+a)Arquitetura de Computadores são os atributos visíveis ao programador, como o conjunto de instruções, tipos de dados, modos de endereçamento e registradores.
+Organização de Computadores trata da implementação física, ou seja, como os componentes são interconectados para cumprir a arquitetura definida.
+
+b)Registradores são extremamente rápidos pois estão localizados dentro da CPU com acesso quase instantâneo, porém com uma capacidade limitada por ter uma quantidade pequena nessa CPU. Eles são usados para operações imediatas da CPU.
+A memória é relativamente rápida, porém muito mais lenta do que um registrador, pois exige ir fora da CPU, porém com uma grande capacidade por ter milhões ou bilhões de posições. Ela é usada para armazenamento temporário e permanente de dados e programas enquanto estão sendo usados.
+
+c)O Big Endian armazena o byte mais significativo primeiro, enquanto o Little Endian armazena o Byte menos significativo primeiro.
+
+Exemplo: Armazenar 0x12345678
+
+Big Edian - 0x12  0x34  0x56  0x78
+Little Edian - 0x78  0x56  0x34  0x12
